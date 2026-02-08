@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#efe6ff,#ffd6e7,#d7ffe9);
+    min-height:100vh;
+}
+
+/* CONTAINER */
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 24px;
+}
+
+/* NAVBAR */
+.navbar{
+    padding:28px 0;
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-weight:600;
+}
+
+.bar{
+    width:6px;
+    height:16px;
+    border-radius:4px;
+}
+
+.pink{background:#ff4d8d}
+.purple{background:#7c3aed}
+.blue{background:#3b82f6}
+
+.menu{
+    margin-left:auto;
+    display:flex;
+    gap:34px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#222;
+    font-size:14px;
+}
+
+.btn-dark{
+    margin-left:30px;
+    padding:10px 22px;
+    background:#000;
+    color:#fff;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* HERO */
+.hero{
+    padding:90px 0;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+}
+
+/* TEXT */
+.content h1{
+    font-size:64px;
+    line-height:1.05;
+    background:linear-gradient(90deg,#4f46e5,#8b5cf6);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.content p{
+    margin:22px 0 36px;
+    color:#555;
+    max-width:420px;
+    font-size:15px;
+}
+
+.btn-green{
+    background:#b9ffcc;
+    padding:14px 36px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#000;
+    font-weight:500;
+}
+
+/* VISUAL */
+.visual{
+    position:relative;
+    height:420px;
+}
+
+.blob{
+    position:absolute;
+    filter:blur(2px);
+    border-radius:50%;
+}
+
+.blob.purple{
+    width:260px;
+    height:200px;
+    background:#c084fc;
+    top:40px;
+    left:120px;
+}
+
+.blob.green{
+    width:280px;
+    height:200px;
+    background:#86efac;
+    bottom:40px;
+    right:40px;
+}
+
+/* CARD */
+.card{
+    position:absolute;
+    top:80px;
+    right:80px;
+    width:380px;
+    height:240px;
+    padding:28px;
+    border-radius:26px;
+    color:#fff;
+    background:linear-gradient(135deg,#7c3aed,#60a5fa,#34d399);
+    box-shadow:0 40px 80px rgba(0,0,0,.25);
+    transform:rotate(-8deg);
+}
+
+.mc{
+    width:44px;
+    height:28px;
+    background:linear-gradient(90deg,#ff5a5a,#ffcc00);
+    border-radius:6px;
+    margin-bottom:42px;
+}
+
+.name{
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.number{
+    font-size:20px;
+    letter-spacing:2px;
+    margin:14px 0;
+}
+
+.date{
+    font-size:12px;
+}
